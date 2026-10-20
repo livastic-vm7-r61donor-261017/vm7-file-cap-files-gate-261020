@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: file-cap-codeowners-discriminator
+    conditions:
+      - title = VM7 FILES CONDITION CAP 261020
+      - -draft
+      - label = VM7_NEVER_ARM_261020
+    actions:
+      merge:
+        method: merge
